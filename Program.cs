@@ -43,7 +43,7 @@ namespace HelloWorld
         /// Esto inicia todo
         /// </summary>
         /// <param name="args"> Vector por defecto</param>
-        static void Main(string[] args)
+        static void Mainn(string[] args)
         {
             //Console.WriteLine("Hello World, have a nice day");
 
