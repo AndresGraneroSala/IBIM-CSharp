@@ -23,7 +23,7 @@ namespace HelloWorld
             //Videos22Al26Excepciones.Video24y25Checked();
 
 
-            Console.WriteLine(Videos22Al26Excepciones.Meses(2));
+            /*Console.WriteLine(Videos22Al26Excepciones.Meses(2));
             try
             {
 				Console.WriteLine(Videos22Al26Excepciones.Meses(15));
@@ -32,7 +32,9 @@ namespace HelloWorld
             {
 
                 Console.WriteLine($"Mensaje de la excepción: {e.Message}");
-            }
+            }*/
+
+            Videos22Al26Excepciones.Video26Finally();
 
 		}
 
@@ -80,6 +82,43 @@ namespace HelloWorld
     class Videos22Al26Excepciones {
 
         //ventana de configuración de extensiones en Depurar>Ventanas>Configuración de excepciones
+
+
+        internal static void Video26Finally()
+        {
+            System.IO.StreamReader archivo = null;
+
+            try
+            {
+                string linia;
+                int contador = 0;
+
+                string ruta = @"C:\Users\Andriu\Desktop\PruebasC#.txt";
+
+                archivo = new System.IO.StreamReader(ruta);
+
+				while ((linia = archivo.ReadLine()) != null) {
+                    Console.WriteLine(linia);
+                    contador++;
+                }
+
+			}
+            catch (Exception e)
+            {
+                Console.WriteLine("Error con la lectura del archivo");
+
+            }
+            finally
+            {
+                if(archivo!= null)
+                {
+                    archivo.Close();
+                    Console.WriteLine("Conexión con el fichero cerrada");
+                }
+            }
+
+
+        }
 
 
         internal static string Meses(int numMes)
