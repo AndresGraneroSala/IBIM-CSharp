@@ -18,9 +18,23 @@ namespace HelloWorld
             //Video9Metodos.ImprimirSuma(5,9);
             //Video18Switch();
             //Videos19Al20While.Video20();
-			Videos19Al20While.Video21();
-        
-        }
+            //Videos19Al20While.Video21();
+            //Videos22Al26Excepciones.Video22y24();
+            //Videos22Al26Excepciones.Video24y25Checked();
+
+
+            Console.WriteLine(Videos22Al26Excepciones.Meses(2));
+            try
+            {
+				Console.WriteLine(Videos22Al26Excepciones.Meses(15));
+			}
+			catch (Exception e)
+            {
+
+                Console.WriteLine($"Mensaje de la excepción: {e.Message}");
+            }
+
+		}
 
 
         
@@ -61,6 +75,119 @@ namespace HelloWorld
 
         }
 
+    }
+
+    class Videos22Al26Excepciones {
+
+        //ventana de configuración de extensiones en Depurar>Ventanas>Configuración de excepciones
+
+
+        internal static string Meses(int numMes)
+        {
+            switch (numMes)
+            {
+				case 1:
+					return "Enero";
+				case 2:
+					return "Febrero";
+				case 3:
+					return "Marzo";
+				case 4:
+					return "Abril";
+				case 5:
+					return "Mayo";
+				case 6:
+					return "Junio";
+				case 7:
+					return "Julio";
+				case 8:
+					return "Agosto";
+				case 9:
+					return "Septiembre";
+				case 10:
+					return "Octubre";
+				case 11:
+					return "Noviembre";
+				case 12:
+					return "Diciembre";
+				default:
+                    throw new ArgumentOutOfRangeException();
+			}
+        }
+
+        internal static void Video24y25Checked()
+        {
+            //no dejar pasar errores
+
+            int num = int.MaxValue;
+
+            int resultado = checked(num + 20);
+            int resultadoSinChecked = unchecked(num+30);
+
+
+
+            Console.WriteLine(num);
+            Console.WriteLine(resultado);
+
+
+
+        }
+
+        internal static void Video22y24()
+        {
+			Random random = new Random();
+			int numRandom = random.Next(0, 100);
+
+			int intentos = 0;
+
+			int minumero = 101;
+
+			Console.WriteLine("Adivina el numerín del 1-100");
+
+			do
+			{
+				intentos++;
+
+                try
+                {
+                    minumero = int.Parse(Console.ReadLine());
+
+                }
+                catch (FormatException e) when (e.GetType()!=typeof(FormatException))
+                {
+                    Console.WriteLine($"Ha ocurrido un error, {e.Message}");
+                    minumero=101;
+                }
+                catch (FormatException e)
+                {
+                    Console.WriteLine("Has introducido texto");
+                    minumero = 101;
+				}
+
+
+				/*catch (OverflowException ex)
+                {
+					Console.WriteLine($"Tu número es demasiado alto, {ex.Message}");
+					minumero = 101;
+                }
+                catch (Exception ex)
+                {
+					Console.WriteLine($"Tu número es demasiado alto, {ex.Message}");
+					minumero = 101;
+				}*/
+
+
+				string esMas =minumero==numRandom? "" : minumero > numRandom ? "bajo" : "alto";
+
+                if (minumero != 101)
+                {
+					Console.WriteLine("El número es más {esMas}");
+				}
+
+			} while (numRandom != minumero);
+
+			Console.WriteLine($"Bien el número era {numRandom}, has tardado {intentos} intentos");
+		}
     }
 
     class Videos19Al20While
