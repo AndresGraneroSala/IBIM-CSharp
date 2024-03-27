@@ -14,8 +14,9 @@ namespace HelloWorld
         static void Main(string[] args)
         {
             //Video7();
-            Console.WriteLine(Video9Metodos.SumaNumeros(1,3));
-            Video9Metodos.ImprimirSuma(5,9);
+            //Console.WriteLine(Video9Metodos.SumaNumeros(1,3));
+            //Video9Metodos.ImprimirSuma(5,9);
+            Video18Switch();
         }
 
 
@@ -30,6 +31,31 @@ namespace HelloWorld
             Console.WriteLine("Introduce el 2º número");
             int num2 = int.Parse(Console.ReadLine());
             Console.WriteLine($"La suma es  {num1 + num2}");
+        }
+
+        static void Video18Switch()
+        {
+            int num=int.Parse(Console.ReadLine());
+
+            switch (num)
+            {
+                case 1:
+                    Console.WriteLine("Uno");
+                    break;
+                
+                case 2:
+                    Console.WriteLine("Dos");
+                    break;
+                
+                case 3:
+                    Console.WriteLine("Tre");
+                    break;
+
+                default:
+                    Console.WriteLine("Un puñao");
+                    break;
+            }
+
         }
 
     }
