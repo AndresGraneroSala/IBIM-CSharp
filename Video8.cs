@@ -16,7 +16,10 @@ namespace HelloWorld
             //Video7();
             //Console.WriteLine(Video9Metodos.SumaNumeros(1,3));
             //Video9Metodos.ImprimirSuma(5,9);
-            Video18Switch();
+            //Video18Switch();
+            //Videos19Al20While.Video20();
+			Videos19Al20While.Video21();
+        
         }
 
 
@@ -59,6 +62,59 @@ namespace HelloWorld
         }
 
     }
+
+    class Videos19Al20While
+    {
+        internal static void Video20()
+        {
+            Random random = new Random();
+            int numRandom = random.Next(0,100);
+
+            int intentos = 0;
+
+            int minumero = 101;
+
+            Console.WriteLine("Adivina el numerín");
+
+            while (numRandom!=minumero)
+            {
+                intentos++;
+                minumero = int.Parse(Console.ReadLine());
+
+				string esMas = minumero > numRandom ?  "bajo":"alto";
+
+
+				Console.WriteLine($"El número es más {esMas}");
+            }
+
+            Console.WriteLine($"Bien el número era {numRandom}, has tardado {intentos} intentos");
+        }
+
+        internal static void Video21()
+		{
+			Random random = new Random();
+			int numRandom = random.Next(0, 100);
+
+			int intentos = 0;
+
+			int minumero = 101;
+
+			Console.WriteLine("Adivina el numerín");
+
+            do
+            {
+                intentos++;
+                minumero = int.Parse(Console.ReadLine());
+
+                string esMas = minumero > numRandom ? "bajo" : "alto";
+
+
+                Console.WriteLine($"El número es más {esMas}");
+            } while (numRandom != minumero);
+
+			Console.WriteLine($"Bien el número era {numRandom}, has tardado {intentos} intentos");
+		}
+	}
 
 
     class Video9Metodos
