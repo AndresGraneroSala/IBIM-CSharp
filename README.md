@@ -21,6 +21,11 @@ Tiene metodos que tienen todas las clases
 Contructor de la clase padre, es necesario hacer un constructor en los hijos y usar el :base si el padre tiene un contructor
 Esto porque siempre se usa el base al instanciar pero no se ve
 
+## Principio de sustitucion
+"es siempre un" se puede instanciar una clase hijo en su clase padre pero no al reves
+caballo es siempre un mamifero pero mamifero no es siempre un caballo
+
+
 ## POO (Programación Orientada a Objetos)
 
 ### Mini explicación 

@@ -24,11 +24,23 @@
 			Babieca.Respirar();
 			Juan.CuidarCrias();
 
-			Juan.getNombre();
+			/*Juan.getNombre();
 			Babieca.getNombre();
-			Copito.getNombre();
+			Copito.getNombre();*/
 
 
+			Mamiferos animal = new Mamiferos("bufalo");
+			Caballo Bucefalo = new Caballo("bucefalo");
+			animal = Bucefalo;
+
+			// error -> Bucefalo = animal;
+
+			object miMamifero = new Mamiferos("wally");
+
+			Mamiferos[] almacenAnimales = new Mamiferos[] { new Caballo("caballo blanco de santiago"), new Humano("Pepe"), new Gorila("Jorge el curioso") };
+		
+		
+		
 		}
 
 	}
