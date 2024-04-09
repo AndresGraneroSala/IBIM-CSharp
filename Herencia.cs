@@ -1,7 +1,7 @@
 ﻿namespace Herencia
 {
 
-	// Videos 27-35
+	// Videos 41-47
 	class Herencia
 	{
 
