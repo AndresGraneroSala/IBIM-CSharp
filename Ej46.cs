@@ -31,12 +31,7 @@
 
 		class Vehiculo
 		{
-			private double velocidad = 1;
-
-			public Vehiculo(double velocidad)
-			{
-				this.velocidad = velocidad;
-			}
+			
 
 			public void Arrancar()
 			{
@@ -57,6 +52,7 @@
 
 		class Avion: Vehiculo 
 		{
+
 			public override void Conducir()
 			{
                 Console.WriteLine("Conducir por el aire");
