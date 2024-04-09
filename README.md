@@ -5,11 +5,11 @@
 ## POO (Programación Orientada a Objetos)
 
 ### Mini explicación 
-Antes era en procedimientos, como lo programas se van complicando surgen dificultades a la hora de escalar.
-Soluciones?
-Simplificar en objetos -> estado, propiedades y comportamiento
-Se dividen en módulos (clases) -> modularización
-Ej en la vida: equipo IFI -> clases reproductor cd, radio, controladores, etc
+Antes era en procedimientos, como lo programas se van complicando surgen dificultades a la hora de escalar.<br>
+Soluciones?<br>
+Simplificar en objetos -> estado, propiedades y comportamiento<br>
+Se dividen en módulos (clases) -> modularización<br>
+Ej en la vida: equipo IFI -> clases reproductor cd, radio, controladores, etc<br>
 
 ### Clase
 Modelo donde se redactan las caracterísiticas comunes de un grupo de objetos
