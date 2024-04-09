@@ -23,7 +23,7 @@
 	class Ej46
 	{
 
-		static void Main(string[] args)
+		static void Mainn(string[] args)
 		{
             Console.WriteLine("Test avion");
 			

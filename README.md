@@ -1,4 +1,16 @@
-# TEORIA CURSO PÍLDORAS INFORMÁTICAS C#
+# TEORIA CURSO PÍLDORAS INFORMÁTICAS C# y otros
+
+
+## Enumerados
+Conmjunto de valores fijos para una variable, estos tienen un valor int internamente
+
+## Delegados
+Funciones que delegan en otras funciones -> referencia a un metodo
+
+### Delegados predicados devuelven un valor booleano (true o false)
+
+## Eventos
+
 
 ## HERENCIA
 
