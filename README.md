@@ -25,6 +25,17 @@ Esto porque siempre se usa el base al instanciar pero no se ve
 "es siempre un" se puede instanciar una clase hijo en su clase padre pero no al reves
 caballo es siempre un mamifero pero mamifero no es siempre un caballo
 
+## Polimorfismo
+Muchas formas de comportarse cada comportamiento las clases
+
+### Virtual (padre) y override (hijo)
+tiene un metodo llamado igual que el padre pero este modifica su comportamiento
+
+### Protected
+Accesible desde la clase y las que lo hereden
+
+
+
 
 ## POO (Programación Orientada a Objetos)
 

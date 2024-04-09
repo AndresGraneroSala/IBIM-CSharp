@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|c:\\users\\andriu\\source\\repos\\helloword\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
-      "RelativeMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+      "AbsoluteMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|c:\\users\\andriu\\source\\repos\\helloword\\ej46.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|solutionrelative:ej46.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|c:\\users\\andriu\\source\\repos\\helloword\\poo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|solutionrelative:poo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|c:\\users\\andriu\\source\\repos\\helloword\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
+      "RelativeMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|c:\\users\\andriu\\source\\repos\\helloword\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,11 +30,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Ej46.cs",
+              "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\Ej46.cs",
+              "RelativeDocumentMoniker": "Ej46.cs",
+              "ToolTip": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\Ej46.cs",
+              "RelativeToolTip": "Ej46.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-09T09:54:43.131Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -47,7 +64,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "VideosHasta26.cs",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\VideosHasta26.cs",
               "RelativeDocumentMoniker": "VideosHasta26.cs",
@@ -60,7 +77,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -73,13 +90,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\README.md",
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAABFAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACIAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
               "WhenOpened": "2024-03-27T14:21:16.612Z",
               "EditorCaption": ""

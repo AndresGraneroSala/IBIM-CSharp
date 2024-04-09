@@ -5,10 +5,10 @@
 	class Herencia
 	{
 
-		static void Main(string[] args)
+		static void Mainn(string[] args)
 		{
 			
-			 
+			/* 
 			//EJEMPLO DE SINTAXIS PARA HEREDAR + CONSTRUCTORES
 
 			Caballo Babieca	= new Caballo("babieca");
@@ -24,9 +24,9 @@
 			Babieca.Respirar();
 			Juan.CuidarCrias();
 
-			/*Juan.getNombre();
+			Juan.getNombre();
 			Babieca.getNombre();
-			Copito.getNombre();*/
+			Copito.getNombre();
 
 
 			Mamiferos animal = new Mamiferos("bufalo");
@@ -36,10 +36,14 @@
 			// error -> Bucefalo = animal;
 
 			object miMamifero = new Mamiferos("wally");
+			*/
+
 
 			Mamiferos[] almacenAnimales = new Mamiferos[] { new Caballo("caballo blanco de santiago"), new Humano("Pepe"), new Gorila("Jorge el curioso") };
-		
-		
+
+
+			Mamiferos miMamifero = new Mamiferos("test protected");
+			//error no accesible desde fuera de la clase o otra que no la herede -> miMamifero.Respirar();
 		
 		}
 
@@ -53,7 +57,7 @@
 			nombreSerVivo = nombre;
 		}
 
-		public void Respirar()
+		protected void Respirar()
 		{
 			Console.WriteLine("Capaz de respirar");
 		}
@@ -62,6 +66,12 @@
 		{
 			Console.WriteLine("Cuido de crias hasta ser mayores");
 		}
+
+		public virtual void Pensar()
+		{
+			Console.WriteLine("pensamiento basico instintivo");
+		}
+
 
 		private String nombreSerVivo;
 		
@@ -77,6 +87,7 @@
 
 
 		public void Galopar() {
+			Respirar();
 			Console.WriteLine("Capaz de galopar");
 		}
 	}
@@ -85,9 +96,11 @@
 	{
 		public Humano (String nombreHumano): base(nombreHumano) { }
 
-		public void Pensar()
+		//new para quitar advertencia
+
+		public override void Pensar()
 		{
-			Console.WriteLine("Soy capaz de pensar ¿?");
+			Console.WriteLine("pensamiento basico instintivo");
 		}
 	}
 
@@ -100,6 +113,11 @@
 		{
             Console.WriteLine("Soy capaz de trepar");
         }
+
+		public override void Pensar()
+		{
+			Console.WriteLine("pensamiento instintivo avanzado");
+		}
 	}
 
 }
