@@ -20,6 +20,9 @@ Se crea una variable de una clase en la que se pueden cambiar sus propiedades
 ej: Circulo circ1= new Cirulo();
 	circ1.radio=12;
 
+#### Contructores
+Dan un estado inicial a un objeto
+
 ### Objeto
 Derivados de una clase con diferentes propiedades y comportamientos
 - Una variable de una clase puede ser llamada propiedad o campo de clase.

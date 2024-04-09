@@ -26,20 +26,50 @@ namespace POO
 			Circulo miCirculo2 = new Circulo(); //Iniciación de variable objeto -> Instanciar o ejemplar de clase
 			Console.WriteLine(miCirculo2.calculoArea(6));
 */
+            /*
+            //EJEMPLO ENCAPSULAR
 
+            ConversorEuroDolar obj = new ConversorEuroDolar();
 
+            //obj.euro = 2;
+            obj.SetEuro(5);
+            
+            Console.WriteLine(obj.convierte(50));*/
 
-		}
+        }
 	}
 
+
+    class ConversorEuroDolar
+    {
+        private double euro =1.253;
+
+        public void SetEuro(double nuevoVal)
+        {
+            //control de como se modifica 
+            if (euro < 0)
+            {
+                return;
+            }
+
+            euro = nuevoVal;
+        }
+
+        public double convierte(double cantidad)
+        {
+            return euro*cantidad;
+        }
+
+    }
 
 	class Circulo //ejemplo de una clase
 	{
 		private const double Pi = 3.1416; //propiedad o campo de clase
 
-		public double calculoArea(int radio) //metodo de clase su comportamiento 
+		public double CalculoArea(int radio) //metodo de clase su comportamiento 
 		{
 			return Pi * radio * radio;
 		}
 	}
+
 }
