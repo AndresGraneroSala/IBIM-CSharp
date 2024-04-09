@@ -1,5 +1,17 @@
 # TEORIA CURSO PÍLDORAS INFORMÁTICAS C#
 
+## HERENCIA
+
+### Mini explicacion
+Reutilizar codigo para no repetirlo adquiriendo propiedades y comportamientos de otras clases relacionadas<br>
+
+Ej1: Jerarquia -> 1ºAbuelo 2ºPadre 3ºHijos<br>
+Ej2: de "Es-un"-> Empleado, Jefe, Director<br>
+Director es un empleado y es un jefe<br>
+Jefe es un empleado<br>
+Más abajo en la jerarquia mas específico<br>
+
+Ej3: Mamíferos-> Caballo, Humano, Gorila
 
 
 ## POO (Programación Orientada a Objetos)
