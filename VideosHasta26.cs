@@ -11,7 +11,7 @@ namespace HelloWorld
         /// Esto inicia todo
         /// </summary>
         /// <param name="args"> Vector por defecto</param>
-        static void Main(string[] args)
+        static void Mainnn(string[] args)
         {
             //Video7();
             //Console.WriteLine(Video9Metodos.SumaNumeros(1,3));

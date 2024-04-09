@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|c:\\users\\andriu\\source\\repos\\helloword\\video8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|solutionrelative:video8.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|c:\\users\\andriu\\source\\repos\\helloword\\videoshasta26.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|solutionrelative:videoshasta26.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|c:\\users\\andriu\\source\\repos\\helloword\\poo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|solutionrelative:poo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|c:\\users\\andriu\\source\\repos\\helloword\\readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}",
       "RelativeMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|solutionrelative:readme.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|c:\\users\\andriu\\source\\repos\\helloword\\helloword.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|solutionrelative:helloword.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|c:\\users\\andriu\\source\\repos\\helloword\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,25 +30,26 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HelloWord",
-              "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\HelloWord.csproj",
-              "RelativeDocumentMoniker": "HelloWord.csproj",
-              "ToolTip": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\HelloWord.csproj",
-              "RelativeToolTip": "HelloWord.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-27T11:58:31.764Z",
+              "DocumentIndex": 1,
+              "Title": "POO.cs",
+              "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\POO.cs",
+              "RelativeDocumentMoniker": "POO.cs",
+              "ToolTip": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\POO.cs",
+              "RelativeToolTip": "POO.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T14:47:41.635Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Video8.cs",
-              "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\Video8.cs",
-              "RelativeDocumentMoniker": "Video8.cs",
-              "ToolTip": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\Video8.cs",
-              "RelativeToolTip": "Video8.cs",
-              "ViewState": "AQIAAEQAAAAAAAAAAAAwwHMAAABGAAAA",
+              "Title": "VideosHasta26.cs",
+              "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\VideosHasta26.cs",
+              "RelativeDocumentMoniker": "VideosHasta26.cs",
+              "ToolTip": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\VideosHasta26.cs",
+              "RelativeToolTip": "VideosHasta26.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-25T13:09:06.635Z",
               "EditorCaption": ""
@@ -67,16 +68,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\README.md",
               "RelativeDocumentMoniker": "README.md",
               "ToolTip": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\README.md",
               "RelativeToolTip": "README.md",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
-              "WhenOpened": "2024-03-27T14:21:16.612Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-27T14:21:16.612Z"
             }
           ]
         }
