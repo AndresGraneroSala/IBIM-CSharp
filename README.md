@@ -17,6 +17,10 @@ Ej3: Mamíferos-> Caballo, Humano, Gorila
 Todas las clases heredan de object<br>
 Tiene metodos que tienen todas las clases
 
+## Instruccion base
+Contructor de la clase padre, es necesario hacer un constructor en los hijos y usar el :base si el padre tiene un contructor
+Esto porque siempre se usa el base al instanciar pero no se ve
+
 ## POO (Programación Orientada a Objetos)
 
 ### Mini explicación 
