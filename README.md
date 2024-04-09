@@ -13,6 +13,9 @@ Más abajo en la jerarquia mas específico<br>
 
 Ej3: Mamíferos-> Caballo, Humano, Gorila
 
+### Clase object
+Todas las clases heredan de object<br>
+Tiene metodos que tienen todas las clases
 
 ## POO (Programación Orientada a Objetos)
 
