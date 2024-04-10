@@ -15,8 +15,4 @@
     <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Otros tutotiales\" />
-  </ItemGroup>
-
 </Project>

@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Numerics;
 
+
+
+
 namespace POO
 {
 
@@ -12,7 +15,7 @@ namespace POO
         /// Esto inicia todo
         /// </summary>
         /// <param name="args"> Vector por defecto</param>
-        static void Mainn(string[] args)
+        static void Main(string[] args)
         {
 
             /* 
@@ -35,12 +38,49 @@ namespace POO
             obj.SetEuro(5);
             
             Console.WriteLine(obj.convierte(50));*/
-
+            
+            Tests.TestContructores();
         }
 	}
 
+	/*CONSTRUCTORES*/
+	/*----------------------------*/
 
-    class ConversorEuroDolar
+    class Tests
+    {
+
+        public static void TestContructores()
+        {
+            Coche coche1 = new Coche();
+        }
+    }
+
+    class Coche
+    {
+        private int ruedas;
+        private double largo;
+        private double ancho;
+
+        private bool climatizador;
+        private string tapiceria;
+
+        public Coche()
+        {
+            ruedas = 4;
+            largo = 223.045;
+            ancho = 53.6;
+            climatizador = false;
+            tapiceria = "cuero";
+
+        }
+
+    }
+
+
+
+	/*----------------------------*/
+
+	class ConversorEuroDolar
     {
         private double euro =1.253;
 

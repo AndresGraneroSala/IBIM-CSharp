@@ -2,7 +2,7 @@
 {
 	internal class Delegados
 	{
-		static void Main(string[] args)
+		static void Mainn(string[] args)
 		{
 			/*
 			//Creacion del delegado apuntando a MensajeBienvenido

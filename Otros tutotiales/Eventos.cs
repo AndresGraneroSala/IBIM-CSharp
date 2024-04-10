@@ -4,7 +4,7 @@ namespace Eventos
 {
 	internal class Eventos
 	{
-		static void Main(string[] args)
+		static void Mainn(string[] args)
 		{
 			SuscriptorCalculadoreaVirtual calculadoraVirtual = new SuscriptorCalculadoreaVirtual(3,2);
 

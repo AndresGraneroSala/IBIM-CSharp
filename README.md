@@ -7,9 +7,13 @@ Conmjunto de valores fijos para una variable, estos tienen un valor int internam
 ## Delegados
 Funciones que delegan en otras funciones -> referencia a un metodo
 
-### Delegados predicados devuelven un valor booleano (true o false)
+### Delegados predicados
+Devuelven un valor booleano (true o false)
 
 ## Eventos
+Editor (que acciona) evento(los comunica) suscriptor(funcion) <br>
+Delegados encapsulados <br>
+Ej: alguien llega a una tienda y suena una campana
 
 
 ## HERENCIA
