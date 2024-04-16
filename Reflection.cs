@@ -12,7 +12,7 @@ namespace Reflection
 {
     internal class Reflection
     {
-        static void Main(string[] args)
+        static void Mainn(string[] args)
         {
             var keyboard = new Keyboard() {Name="k-06",brand="keygem", keys=106, County="USA" };
             var properities = typeof(Keyboard).GetProperties();

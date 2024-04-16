@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34714.143
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelloWord", "HelloWord.csproj", "{35685EB4-037A-4F55-8BCF-4B5D07E052F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HelloWord", "HelloWord.csproj", "{35685EB4-037A-4F55-8BCF-4B5D07E052F3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDB", "MongoDB", "{12A54A75-C728-49A6-B332-F5C72EEDA640}"
+	ProjectSection(SolutionItems) = preProject
+		StartMongoDB.cs = StartMongoDB.cs
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{D88378BC-8FBD-44CD-B6FD-1D5E9DE3801D}"
+	ProjectSection(SolutionItems) = preProject
+		People.cs = People.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +28,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D88378BC-8FBD-44CD-B6FD-1D5E9DE3801D} = {12A54A75-C728-49A6-B332-F5C72EEDA640}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {44A328B9-B03B-4F67-95FE-E876733A2C31}
