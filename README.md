@@ -1,6 +1,10 @@
 # TEORIA CURSO PÍLDORAS INFORMÁTICAS C# y otros
 
 
+## Reflexion
+Extraer propiedades de manera modular de una clase para que al añadir una nueva propiedad no se cambie código anterior <br>
+GetProperties -> devuelve un array con todas las propiedades
+
 ## Enumerados
 Conmjunto de valores fijos para una variable, estos tienen un valor int internamente
 
