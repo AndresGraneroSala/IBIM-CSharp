@@ -70,7 +70,11 @@
 
 		//Definicion del objeto delecado
 
-		//delegate void ObjetoDelegado(string msj);
+		delegate void ObjetoDelegado(string msj);
+		
+		//delegate
+		//Action 
+		//Func 
 	}
 
 

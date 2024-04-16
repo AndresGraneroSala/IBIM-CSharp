@@ -15,7 +15,7 @@ namespace POO
         /// Esto inicia todo
         /// </summary>
         /// <param name="args"> Vector por defecto</param>
-        static void Main(string[] args)
+        static void Mainn(string[] args)
         {
 
             /* 
@@ -71,6 +71,17 @@ namespace POO
             ancho = 53.6;
             climatizador = false;
             tapiceria = "cuero";
+
+        }
+
+
+        public Coche(int ruedas, string tapiceria)
+        {
+            this.ruedas = ruedas;
+            largo = 223.045;
+            ancho = 53.6;
+            climatizador = false;
+            this.tapiceria = tapiceria;
 
         }
 

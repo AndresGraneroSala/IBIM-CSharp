@@ -100,7 +100,7 @@
 
 		public override void Pensar()
 		{
-			Console.WriteLine("pensamiento basico instintivo");
+			Console.WriteLine("pensamiento logico");
 		}
 	}
 
