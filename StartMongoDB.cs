@@ -9,7 +9,7 @@ namespace mongodb
 
 	public class MongoDB
 	{
-        static void Main(string[] args)
+        static void Mainn(string[] args)
         {
             var client = new MongoClient("mongodb://localhost:27017");
             var database = client.GetDatabase("school");
@@ -17,7 +17,7 @@ namespace mongodb
             var peopleDB = database.GetCollection<People>("people");
 
             var myPeople = new People() {Name="Andrés nuevo",Age=17,Id= "661e54e9f107bf881aa0a6a9" };
-
+                
             //peopleDB.InsertOne(myPeople);
 
 
