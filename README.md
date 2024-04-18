@@ -1,5 +1,11 @@
 # TEORIA CURSO PÍLDORAS INFORMÁTICAS C# y otros
 
+## Arrays (matriz/vectores)
+Lista de variables
+
+### Implícito
+No se indica tipo de datos se asigna al introducir datos
+
 ## Clases anónimas
 Clases creadas al instanciarse con el uso de var
 

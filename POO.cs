@@ -48,7 +48,7 @@ namespace POO
 
     class Tests
     {
-        public static void Main(string[] args)
+        public static void Mainn(string[] args)
         {
             //TestGettersSetters();
             //TestPunto();
