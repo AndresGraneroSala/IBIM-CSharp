@@ -1,5 +1,7 @@
 # TEORIA CURSO PÍLDORAS INFORMÁTICAS C# y otros
 
+## Clases anónimas
+Clases creadas al instanciarse con el uso de var
 
 ## Reflexion
 Extraer propiedades de manera modular de una clase para que al añadir una nueva propiedad no se cambie código anterior <br>

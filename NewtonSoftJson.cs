@@ -9,7 +9,7 @@ namespace serializacion
 {
     internal class NewtonSoftJson
     {
-        static void Main(string[] args)
+        static void Mainn(string[] args)
         {
             SaveJson();
             LoadJson();

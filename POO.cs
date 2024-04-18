@@ -48,12 +48,71 @@ namespace POO
 
     class Tests
     {
+        public static void Main(string[] args)
+        {
+            //TestGettersSetters();
+            //TestPunto();
+            TestClasesAnonimas();
+        }
+
+        public static void TestGettersSetters()
+        {
+            Coche coche1 = new Coche();
+            Console.WriteLine(coche1.getExtraCoche());
+            coche1.setExtras(true, "cuero");
+            Console.WriteLine(coche1.getExtraCoche());
+
+
+        }
+
 
         public static void TestContructores()
         {
             Coche coche1 = new Coche();
         }
+
+        public static void TestPunto()
+        {
+            Punto origen = new Punto();
+            Punto destino = new Punto(2,6);
+
+            double distancia = origen.DistanciaHasta(destino);
+            Console.WriteLine($"la distancia es:{distancia}");
+
+            Punto otroPunto= new Punto();
+
+            Console.WriteLine($"Hay {Punto.ContadorDeObjetos()} puntos");
+            Console.WriteLine($"Las constantes son static {Punto.constantePrueba}");
+
+        }
+
+        public static void TestClasesAnonimas()
+        {
+            //using static System.Math; -> para evitar usar Math.
+
+
+            double raiz = Math.Sqrt(9);
+            double potencia= Math.Pow(3,4);
+
+            Console.WriteLine(raiz);
+            Console.WriteLine(potencia);
+
+            var mivariable = new { Nombre = "Andres", Edad = 17 };
+            var otraVarialbe = new { Nombre = "Ana", Edad = 35 };
+
+
+
+            Console.WriteLine(mivariable.Nombre);
+
+
+        }
+
+
+
+
     }
+
+
 
     class Coche
     {
@@ -64,13 +123,35 @@ namespace POO
         private bool climatizador;
         private string tapiceria;
 
+        //getter
+        public string getInfoCoche()
+        {
+            return $"ruedas: {ruedas}, largo: {largo}, ancho{ancho}, climatizador:{climatizador}, tapiceria:{tapiceria}";
+        }
+
+        public string getExtraCoche()
+        {
+            return $"climatizador:{climatizador}, tapiceria:{tapiceria}";
+
+        }
+
+        //setter
+        public void setExtras(bool climatizador, string tapiceria)
+        {
+            //this -> hace referencia a este objeto, en este caso esta clase
+            this.climatizador = climatizador;
+            this.tapiceria = tapiceria;
+        }
+
+
+
         public Coche()
         {
             ruedas = 4;
             largo = 223.045;
             ancho = 53.6;
             climatizador = false;
-            tapiceria = "cuero";
+            tapiceria = "tela";
 
         }
 
