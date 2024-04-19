@@ -1,7 +1,7 @@
 # TEORIA CURSO PÍLDORAS INFORMÁTICAS C# y otros
 
 ## Clases abstractas
-z <br>
+Proporciona una definiciçon común para muchos derivados <br>
 Tiene métodos obligados a ser desarrollados <br>
 Si tiene un método abstracto la clase será asbtracta <br>
 
