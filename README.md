@@ -1,5 +1,15 @@
 # TEORIA CURSO PÍLDORAS INFORMÁTICAS C# y otros
 
+## Struct
+Siempre se almacena en el stack<br>
+Usar con muchos datos en memoria
+
+### Stack
+Memoria donde se almacenan datos primitivos (acceso rápido y temporal)
+### Heap
+Memoria donde se almacenan clases y se enlazan al stack (más lento pero no es tan temporal)
+
+
 ## Clases selladas (sealed)
 Una clase la cual no se puede heredar.
 

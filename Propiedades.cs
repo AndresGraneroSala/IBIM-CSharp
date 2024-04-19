@@ -8,7 +8,7 @@ namespace HelloWord
 {
     internal class Propiedades
     {
-        public static void Main(string[] args)
+        public static void Mainn(string[] args)
         {
             Empleado Juan = new Empleado("Juan");
 
