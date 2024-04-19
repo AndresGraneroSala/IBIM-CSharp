@@ -10,7 +10,7 @@ namespace Array
 {
     internal class Array
     {
-        public static void Main(string[] args)
+        public static void Mainn(string[] args)
         {
             //Array1();
             Array2();

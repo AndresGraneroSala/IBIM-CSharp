@@ -1,5 +1,10 @@
 # TEORIA CURSO PÍLDORAS INFORMÁTICAS C# y otros
 
+## Interfaz
+Conjunto de directices que deben cuumplir las clases <br>
+Plantilla de una clase
+
+
 ## Arrays (matriz/vectores)
 Lista de variables
 

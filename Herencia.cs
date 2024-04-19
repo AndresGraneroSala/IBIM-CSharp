@@ -1,4 +1,6 @@
-﻿namespace Herencia
+﻿using DnsClient.Protocol;
+
+namespace Herencia
 {
 
 	// Videos 41-47
@@ -81,16 +83,37 @@
         }
 	}
 
-	class Caballo : Mamiferos
+	class Caballo : Mamiferos, IMamiferosTerrestres, IAnimalesYDeportes, ISaltoConPatas
 	{
 		public Caballo (string nombreCaballo) : base(nombreCaballo) { }
 
+        
 
-		public void Galopar() {
+        public void Galopar() {
 			Respirar();
 			Console.WriteLine("Capaz de galopar");
 		}
-	}
+
+        int IMamiferosTerrestres.NumeroPatas()
+        {
+			return 4;
+        }
+
+		int ISaltoConPatas.NumeroPatas()
+		{
+			return 2;
+		}
+
+        public string tipoDeporte()
+        {
+			return "Hípica";
+        }
+
+        public bool esOlimpico()
+        {
+            return true;
+        }
+    }
 
 	class Humano : Mamiferos
 	{
@@ -104,7 +127,7 @@
 		}
 	}
 
-	class Gorila:Mamiferos
+	class Gorila:Mamiferos, IMamiferosTerrestres
 	{
 		public Gorila(String nombreGorila) : base(nombreGorila) { }
 
@@ -118,6 +141,11 @@
 		{
 			Console.WriteLine("pensamiento instintivo avanzado");
 		}
-	}
+
+        public int NumeroPatas()
+        {
+			return 2;
+        }
+    }
 
 }
