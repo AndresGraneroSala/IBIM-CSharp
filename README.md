@@ -1,5 +1,11 @@
 # TEORIA CURSO PÍLDORAS INFORMÁTICAS C# y otros
 
+## Clases abstractas
+z <br>
+Tiene métodos obligados a ser desarrollados <br>
+Si tiene un método abstracto la clase será asbtracta <br>
+
+
 ## Interfaz
 Conjunto de directices que deben cuumplir las clases <br>
 Plantilla de una clase

@@ -1,11 +1,12 @@
 ﻿using HelloWord;
+using HelloWord.Models;
 using Herencia;
 using MongoDB.Driver;
 using System;
 
 public class Interfaces
 {
-    public static void Main(string[] args)
+    public static void Mainn(string[] args)
     {
         //Test1();
         Test4();
@@ -38,29 +39,3 @@ public class Interfaces
 
 }
 
-class Ballena: Mamiferos
-{
-    public Ballena(string nombreBallena):base(nombreBallena) { }
-
-    public void Nadar()
-    {
-        Console.WriteLine("Soy capaz de nadar");
-    }
-
-}
-
-interface IMamiferosTerrestres
-{
-    int NumeroPatas();
-}
-
-interface IAnimalesYDeportes
-{
-    string tipoDeporte();
-    bool esOlimpico();
-}
-
-interface ISaltoConPatas
-{
-    int NumeroPatas();
-}

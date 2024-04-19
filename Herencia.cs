@@ -1,4 +1,5 @@
 ﻿using DnsClient.Protocol;
+using HelloWord.Models;
 
 namespace Herencia
 {
@@ -52,100 +53,6 @@ namespace Herencia
 	}
 
 
-	class Mamiferos
-	{
-		public Mamiferos(string nombre) { 
-		
-			nombreSerVivo = nombre;
-		}
-
-		protected void Respirar()
-		{
-			Console.WriteLine("Capaz de respirar");
-		}
-
-		public void CuidarCrias()
-		{
-			Console.WriteLine("Cuido de crias hasta ser mayores");
-		}
-
-		public virtual void Pensar()
-		{
-			Console.WriteLine("pensamiento basico instintivo");
-		}
-
-
-		private String nombreSerVivo;
-		
-		public void getNombre()
-		{
-            Console.WriteLine("El nombre del ser vivo es: "+ nombreSerVivo);
-        }
-	}
-
-	class Caballo : Mamiferos, IMamiferosTerrestres, IAnimalesYDeportes, ISaltoConPatas
-	{
-		public Caballo (string nombreCaballo) : base(nombreCaballo) { }
-
-        
-
-        public void Galopar() {
-			Respirar();
-			Console.WriteLine("Capaz de galopar");
-		}
-
-        int IMamiferosTerrestres.NumeroPatas()
-        {
-			return 4;
-        }
-
-		int ISaltoConPatas.NumeroPatas()
-		{
-			return 2;
-		}
-
-        public string tipoDeporte()
-        {
-			return "Hípica";
-        }
-
-        public bool esOlimpico()
-        {
-            return true;
-        }
-    }
-
-	class Humano : Mamiferos
-	{
-		public Humano (String nombreHumano): base(nombreHumano) { }
-
-		//new para quitar advertencia
-
-		public override void Pensar()
-		{
-			Console.WriteLine("pensamiento logico");
-		}
-	}
-
-	class Gorila:Mamiferos, IMamiferosTerrestres
-	{
-		public Gorila(String nombreGorila) : base(nombreGorila) { }
-
-
-		public void Trepar()
-		{
-            Console.WriteLine("Soy capaz de trepar");
-        }
-
-		public override void Pensar()
-		{
-			Console.WriteLine("pensamiento instintivo avanzado");
-		}
-
-        public int NumeroPatas()
-        {
-			return 2;
-        }
-    }
+	
 
 }
