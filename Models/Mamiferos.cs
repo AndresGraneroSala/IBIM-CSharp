@@ -136,6 +136,9 @@ namespace HelloWord.Models
         }
     }
 
+   
+
+
     class Gorila : Mamiferos, IMamiferosTerrestres
     {
         public Gorila(String nombreGorila) : base(nombreGorila) { }
@@ -154,6 +157,15 @@ namespace HelloWord.Models
         public int NumeroPatas()
         {
             return 2;
+        }
+    }
+
+    // nadie puede heredar Chimpance
+    sealed class Chimpance: Gorila
+    {
+        public Chimpance(string nombreChimpance):base(nombreChimpance)
+        {
+
         }
     }
 }
