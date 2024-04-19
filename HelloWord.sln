@@ -12,6 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MongoDB", "MongoDB", "{12A5
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{D88378BC-8FBD-44CD-B6FD-1D5E9DE3801D}"
 	ProjectSection(SolutionItems) = preProject
+		Empleados.cs = Empleados.cs
 		People.cs = People.cs
 	EndProjectSection
 EndProject

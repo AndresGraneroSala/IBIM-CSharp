@@ -10,7 +10,7 @@ namespace ClaseAbstracta
     internal class ClaseAbstracta
     {
 
-        public static void Main(string[] args)
+        public static void Mainn(string[] args)
         {
             Lagartija Juancho = new Lagartija("Juancho");
             Juancho.GetNombre();

@@ -1,5 +1,10 @@
 # TEORIA CURSO PÍLDORAS INFORMÁTICAS C# y otros
 
+## Clases selladas (sealed)
+Una clase la cual no se puede heredar.
+
+
+
 ## Clases abstractas
 Proporciona una definiciçon común para muchos derivados <br>
 Tiene métodos obligados a ser desarrollados <br>
