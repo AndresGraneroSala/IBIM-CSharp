@@ -3,7 +3,7 @@
     internal class GenericosRestricciones
     {
 
-        public static void Main(string[] args)
+        public static void Mainn(string[] args)
         {
             AlmacenEmpleados<Director> empleados= new AlmacenEmpleados<Director> (3);
             empleados.Agregar(new Director(4500));

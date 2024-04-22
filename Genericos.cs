@@ -11,7 +11,7 @@ namespace Genericos
     internal class Genericos
     {
 
-        public static void Main(string[] args)
+        public static void Mainn(string[] args)
         {
             //clases que valen para todos los tipos de objeto
 
