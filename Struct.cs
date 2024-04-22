@@ -3,7 +3,7 @@
     internal class Struct
     {
 
-        public static void Main(string[] args)
+        public static void Mainn(string[] args)
         {
             // crear una copia
             Estructura estructura = new Estructura("var1");
