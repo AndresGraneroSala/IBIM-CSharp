@@ -10,7 +10,7 @@ namespace HelloWord
     {
 
 
-        public static void Main(string[] args)
+        public static void Mainn(string[] args)
         {
             ManejoArchivos miArchivo = new ManejoArchivos();
             miArchivo.Mensaje();
