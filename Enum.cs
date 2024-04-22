@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace HelloWord
+namespace Enum
 {
     enum Estaciones
     {
@@ -18,7 +18,7 @@ namespace HelloWord
 
 
 
-        public static void Main(string[] args)
+        public static void Mainn(string[] args)
         {
             Empleado Antonio = new Empleado(Bonus.extra,1550);
 
