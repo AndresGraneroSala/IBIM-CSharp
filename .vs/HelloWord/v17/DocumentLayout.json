@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|c:\\users\\andriu\\source\\repos\\helloword\\expresionesregulares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|solutionrelative:expresionesregulares.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|c:\\users\\andriu\\source\\repos\\helloword\\colecciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35685EB4-037A-4F55-8BCF-4B5D07E052F3}|HelloWord.csproj|solutionrelative:colecciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -71,19 +75,32 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ExpresionesRegulares.cs",
+              "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\ExpresionesRegulares.cs",
+              "RelativeDocumentMoniker": "ExpresionesRegulares.cs",
+              "ToolTip": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\ExpresionesRegulares.cs",
+              "RelativeToolTip": "ExpresionesRegulares.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAUwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-23T09:16:28.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Colecciones.cs",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\Colecciones.cs",
               "RelativeDocumentMoniker": "Colecciones.cs",
               "ToolTip": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\Colecciones.cs",
               "RelativeToolTip": "Colecciones.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACgAAABAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T18:32:47.274Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "GenericosRestricciones.cs",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\GenericosRestricciones.cs",
               "RelativeDocumentMoniker": "GenericosRestricciones.cs",
@@ -91,12 +108,11 @@
               "RelativeToolTip": "GenericosRestricciones.cs",
               "ViewState": "AQIAAAoAAAAAAAAAAAAgwAcAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T15:24:34.874Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T15:24:34.874Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Genericos.cs",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\Genericos.cs",
               "RelativeDocumentMoniker": "Genericos.cs",
@@ -104,12 +120,11 @@
               "RelativeToolTip": "Genericos.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T12:26:05.657Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T12:26:05.657Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Destructores.cs",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\Destructores.cs",
               "RelativeDocumentMoniker": "Destructores.cs",
@@ -117,12 +132,11 @@
               "RelativeToolTip": "Destructores.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T11:20:55.52Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T11:20:55.52Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Enum.cs",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\Enum.cs",
               "RelativeDocumentMoniker": "Enum.cs",
@@ -130,12 +144,11 @@
               "RelativeToolTip": "Enum.cs",
               "ViewState": "AQIAACYAAAAAAAAAAAAwwDoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:38:08.329Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T08:38:08.329Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Struct.cs",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\Struct.cs",
               "RelativeDocumentMoniker": "Struct.cs",
@@ -143,12 +156,11 @@
               "RelativeToolTip": "Struct.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T14:13:26.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T14:13:26.424Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Propiedades.cs",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\Propiedades.cs",
               "RelativeDocumentMoniker": "Propiedades.cs",
@@ -156,12 +168,11 @@
               "RelativeToolTip": "Propiedades.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-19T12:07:10.851Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-19T12:07:10.851Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Empleados.cs",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\Empleados.cs",
               "RelativeDocumentMoniker": "Empleados.cs",
@@ -173,7 +184,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "Herencia.cs",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\Herencia.cs",
               "RelativeDocumentMoniker": "Herencia.cs",
@@ -185,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Mamiferos.cs",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\Models\\Mamiferos.cs",
               "RelativeDocumentMoniker": "Models\\Mamiferos.cs",
@@ -197,7 +208,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Interfaces.cs",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\Interfaces.cs",
               "RelativeDocumentMoniker": "Interfaces.cs",
@@ -209,7 +220,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "ClaseAbstracta.cs",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\ClaseAbstracta.cs",
               "RelativeDocumentMoniker": "ClaseAbstracta.cs",
@@ -221,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "README.md",
               "DocumentMoniker": "C:\\Users\\Andriu\\source\\repos\\HelloWord\\README.md",
               "RelativeDocumentMoniker": "README.md",

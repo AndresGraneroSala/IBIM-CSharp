@@ -9,7 +9,7 @@ namespace HelloWord
 {
     internal class Colecciones
     {
-        public static void Main(string[] args)
+        public static void Mainn(string[] args)
         {
             //arrays modificables
             //Listas();
