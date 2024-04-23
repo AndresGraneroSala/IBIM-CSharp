@@ -9,7 +9,7 @@ namespace HelloWord
 {
     internal class ExpresionesRegulares
     {
-        public static void Main(string[] args)
+        public static void Mainn(string[] args)
         {
             //Clase1();
             Clase2();
